@@ -1,0 +1,7 @@
+messages:
+  prefix: "§bWolf§3§lLibs §8§o»§r "
+  startup: "§fPlugin enabled"
+
+  loading:
+    success: "§aSuccessfully registered command §e%command% §8§o%plugin%" # %command% it's the command registered
+    error: "§cFailed to register Command §e%command% §8§o%plugin%" # %plugin% it's the plugin who tried to register the command

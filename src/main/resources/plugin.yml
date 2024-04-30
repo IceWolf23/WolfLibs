@@ -1,0 +1,7 @@
+name: WolfLibs
+version: '${project.version}'
+main: it.icewolf23x.plugins.wolflibs.WolfLibs
+api-version: '1.20'
+prefix: WolfLibs
+authors: [IceWolf23X]
+description: A Small Libs Jar
