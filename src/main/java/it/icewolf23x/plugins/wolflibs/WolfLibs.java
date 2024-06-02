@@ -15,6 +15,8 @@ public final class WolfLibs extends JavaPlugin {
     public void onEnable() {
         PLUGIN = this;
         CONFIG = this.getConfig();
+        this.saveDefaultConfig();
+
         BroadUtils.send(CONFIG.getString("messages.prefix"), Bukkit.getConsoleSender(), MessageUtils.format(CONFIG.getString("messages.startup")));
         // Plugin startup logic
 
